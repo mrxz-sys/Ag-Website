@@ -211,7 +211,7 @@
       <span></span>
     </div>
     <div class="promo">
-      <p id="title">🎄🎄MERRY CHRISTMAS🎅🏾😉</p>
+      <p id="title">🎄🎄MERRY 🎅 CHRISTMAS🎄🎄</p>
       <h2 id="family" contenteditable>The Walker Family</h2>
       <p id="info" contenteditable> 25 december at 7pm<br>
        The Benchmark Residency,<br>
@@ -224,24 +224,7 @@
       <span></span>
     </div>
   </div>
-  <script>
-    const editables = document.querySelectorAll("[contenteditable]");
-
-// save edits
-editables.forEach(el => {
-  el.addEventListener("blur", () => {
-    localStorage.setItem("dataStorage-" + el.id, el.innerHTML);
-  })
-});
-
-// once on load
-for (var key in localStorage) {
-  if (key.includes("dataStorage-")) {
-    const id = key.replace("dataStorage-","");
-    document.querySelector("#" + id).innerHTML = localStorage.getItem(key);
-  }
-}
-
+  <script src="script.js">
   </script>
 </body>
 </html>
