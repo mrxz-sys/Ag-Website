@@ -223,6 +223,8 @@ all:revert;
 <script type="text/javascript">"IntersectionObserver"in window&&"Intl"in window&&"Locale"in window.Intl||document.write(`\x3Cscript src="https://img1.wsimg.com/poly/v3/polyfill.min.js?rum=0&unknown=polyfill&flags=gated&features=Intl.~locale.fr-FR">\x3C/script>`) 
   /*My personal scr*/
   var buttons=document.querySelectorAll("button")
+  buttons.parentElement().remove();
+  buttons.removeChild();
   buttons.style.setProperty("background-color", "rgb(0,0,139)", "important");
   
   </script>
