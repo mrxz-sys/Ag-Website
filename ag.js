@@ -134,7 +134,7 @@ document.querySelector("#contact-form").addEventListener("submit", (e) => {
   `;
 
   // Send the email using Google Apps Script
-  const url = "https://script.google.com/macros/s/AKfycbw5G4fyY0BvmtooLUga3Rxl1rn2jr6nozScFyRPNaQY9SmSMBflXa1LCBhnV5dZrIc9/exec";
+  const url = "https://script.google.com/macros/s/AKfycbwErotZaBLDa5IMwUyjrI4pjrH-9yVvoqFzkreXFCNdI65f_-O8nBTfEFrpIQMnW0Ck/exec";
   const xhr = new XMLHttpRequest();
   xhr.open("POST", url);
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
