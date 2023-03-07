@@ -1,0 +1,796 @@
+.item img {width: 100%; height: auto}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+  background-color: #E8E8E8;
+  line-height: 1.6em;
+}
+.icon1{
+  font-size: 30px;
+  color: rgb(35,64,85);
+  margin-left: 100px;
+  margin-bottom: -200px;
+}
+/////SIDE BAR NAV
+* The side navigation menu */
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: rgb(35,64,87);
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #E8E8E8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(35,64,85);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #5199c7;
+  transition: background-color ease 300ms, transform ease 500ms;
+  background-color: white;
+  transform: rotateX(10deg) translateZ(20px);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  background-color: #E8E8E8;
+}
+.sidenav .closebtn:hover {
+  background-color: #E8E8E8;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#agl{
+width:400px;
+height:300px;
+margin-left:450px;
+}
+/////////////Images
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:500px;
+}
+.down_arrow{
+  position: absolute;
+  top: 288px;
+  left: 776px;
+  font-size:50px;
+  color:white;
+}
+.up_arrow{
+  position: absolute;
+  top: 2542px;
+  left: 735px;
+  font-size:50px;
+  color:white;
+}
+.meet {
+  position: relative;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:500px;
+}
+.title{
+position: absolute;
+font-size:50px;
+family: 'League Spartan';
+font-weight: 600;
+}
+.cercle {
+  position: absolute;
+  top: 360px;
+  left: 595px;
+  width:400px;
+  height:400px;
+}
+.t1{
+  top: 464px;
+  left: 200px;
+  color:white;
+}
+.t2 {
+  color: grey;
+  font-size: 40px;
+  left:525px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight:600;
+}
+
+.t2::before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: rgb(35,64,85);
+  overflow: hidden;
+  position: absolute;
+  content: attr(data-text);
+  border-right: 2px solid rgb(35,64,85);
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 35%;
+  }
+}
+////carousel
+#cons_list{
+border:2px solid rgb(35,64,84);
+}
+#cons_list{
+  align-items: center;
+  height:300px;
+  width:460px;
+  border: 2px solid rgb(35,64,85);
+  border-top-width: 10px;
+  border-radius: 10px;
+  margin-left:-35px;
+  font-family:'League Spartan';
+  Font-weight:600;
+  font-size:18px
+}
+#cons_list>li{
+margin-top: 20px;
+}
+#aud_list{
+border:2px solid rgb(35,64,84);
+}
+#aud_list{
+  width:460px;
+  height:300px;
+  border: 2px solid rgb(35,64,85);
+  border-top-width: 10px;
+  border-radius: 10px;
+  margin-left:-35px;
+  font-family:'League Spartan';
+  Font-weight:600;
+  font-size:18px
+}
+#aud_list>li{
+margin-top: 20px;
+}
+#bpo_list{
+border:2px solid rgb(35,64,84);
+}
+#bpo_list{
+  width:460px;
+  height:300px;
+  border: 2px solid rgb(35,64,85);
+  border-top-width: 10px;
+  border-radius: 10px;
+  margin-left:-35px;
+  font-family:'League Spartan';
+  Font-weight:600;
+  font-size:18px
+}
+#bpo_list>li{
+margin-top: 20px;
+}
+.adress{
+  font-size:20px;
+  font-weight: 600;
+  margin-top:30px;
+  margin-left:90px;
+  margin-bottom:100px;
+  font-family: Helvetica, arial, sans-serif;
+  text-align: right;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+  color: rgb(89, 89, 89);
+  letter-spacing: 0.083em;
+  line-height: 1.33;
+  font-size: 12px;
+  box-sizing: inherit;
+}
+.contact{
+  font-size:50px;
+  family: 'League Spartan';
+  font-weight:600;
+  color:rgb(35,64,85);
+  border : 2px solid white;
+  width:1450px;
+  font-weight: 600;
+  margin-left:40px;
+  padding:40px;
+  background-color:#F8F8F8;
+  margin-bottom:130px;
+}
+.rotate{
+  transform: rotate(270deg);
+}
+#tel{
+  margin-left:168px;
+  line-height: 1.5;
+  font-size: 20px;
+  color:black;
+  font-family: 'League Spartan';
+  font-family: halyard-text,sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  transition: opacity .3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+:hover#tel{
+  color:grey;
+}
+:hover#tel_svg{
+  color:green;
+}
+#geo{
+  margin-left:190px;
+  line-height: 1.5;
+  font-size: 20px;
+  color:black;
+  font-family: 'League Spartan';
+  font-family: halyard-text,sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  transition: opacity .3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+:hover#geo{
+  color:grey;
+}
+:hover#geo_svg{
+  color:green;
+  transform: rotate(220deg);
+  transition-delay: 0.2s;
+}
+#mail{
+  margin-left:220px;
+  line-height: 1.5;
+  font-size: 20px;
+  color:black;
+  font-family: 'League Spartan';
+  font-family: halyard-text,sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  transition: opacity .3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+:hover#mail{
+  color:grey;
+}
+
+/* ================ The Timeline ================ */
+
+.timeline {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  margin-top: -175px;
+  padding: 1em 0;
+  list-style-type: none;
+}
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: ' ';
+  display: block;
+  width: 6px;
+  height: 100%;
+  margin-left: -3px;
+  background: rgb(80,80,80);
+  background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+  background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+
+
+  z-index: 5;
+}
+
+.timeline li {
+  padding: 1em 0;
+  margin-top:-15px;
+}
+
+.timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.direction-l {
+  position: relative;
+  width: 300px;
+  float: left;
+  text-align: right;
+}
+
+.direction-r {
+  position: relative;
+  width: 300px;
+  float: right;
+}
+
+.flag-wrapper {
+  position: relative;
+  display: inline-block;
+
+  text-align: center;
+}
+
+.flag {
+  position: relative;
+  display: inline;
+  background: rgb(248,248,248);
+  padding: 6px 10px;
+  border-radius: 5px;
+
+  font-weight: 600;
+  text-align: left;
+}
+
+.direction-l .flag {
+  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-r .flag {
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+.direction-l .flag:before {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  content: ' ';
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: -10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 4px solid green;
+  z-index: 10;
+}
+.direction-r .flag:before {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  content: ' ';
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: -10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 4px solid rgb(255,80,80);
+  z-index: 10;
+}
+
+.direction-r .flag:before {
+  left: -40px;
+}
+
+.direction-l .flag:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-left-color: rgb(248,248,248);
+  border-width: 8px;
+  pointer-events: none;
+}
+
+.direction-r .flag:after {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-right-color: rgb(248,248,248);
+  border-width: 8px;
+  pointer-events: none;
+}
+
+.time-wrapper {
+  display: inline;
+  line-height: 1em;
+  font-size: 0.66666em;
+  color: rgb(250,80,80);
+  vertical-align: : middle;
+}
+
+.direction-l .time-wrapper {
+  float: left;
+}
+
+.direction-r .time-wrapper {
+  float: right;
+}
+
+.time {
+  display: inline-block;
+  padding: 4px 6px;
+  background: rgb(248,248,248);
+  font-weight:600;
+  font-size:12px;
+}
+
+.desc {
+  margin: 1em 0.75em 0 0;
+
+  font-size: 0.77777em;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.direction-r .desc {
+  margin: 1em 0 0 0.75em;
+}
+
+/* ================ Timeline Media Queries ================ */
+
+@media screen and (max-width: 660px) {
+
+.timeline {
+ 	width: 100%;
+	padding: 4em 0 1em 0;
+
+}
+
+.timeline li {
+	padding: 2em 0;
+}
+
+.direction-l,
+.direction-r {
+	float: none;
+	width: 100%;
+
+	text-align: center;
+}
+
+.flag-wrapper {
+	text-align: center;
+}
+
+.flag {
+	background: rgb(255,255,255);
+	z-index: 15;
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+  position: absolute;
+  top: -30px;
+	left: 50%;
+	content: ' ';
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin-left: -9px;
+	background: #fff;
+	border-radius: 10px;
+	border: 4px solid rgb(255,80,80);
+	z-index: 10;
+}
+
+.direction-l .flag:after,
+.direction-r .flag:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: -8px;
+	height: 0;
+	width: 0;
+	margin-left: -8px;
+	border: solid transparent;
+	border-bottom-color: rgb(255,255,255);
+	border-width: 8px;
+	pointer-events: none;
+}
+
+.time-wrapper {
+	display: block;
+	position: relative;
+	margin: 4px 0 0 0;
+	z-index: 14;
+}
+
+.direction-l .time-wrapper {
+	float: none;
+}
+
+.direction-r .time-wrapper {
+	float: none;
+}
+
+.desc {
+	position: relative;
+	margin: 1em 0 0 0;
+	padding: 1em;
+	background: rgb(245,245,245);
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+	box-shadow: 0 0 1px rgba(0,0,0,0.20);
+
+  z-index: 15;
+}
+
+.direction-l .desc,
+.direction-r .desc {
+	position: relative;
+	margin: 1em 1em 0 1em;
+	padding: 1em;
+
+  z-index: 15;
+}
+
+}
+
+@media screen and (min-width: 400px ?? max-width: 660px) {
+
+.direction-l .desc,
+.direction-r .desc {
+	margin: 1em 4em 0 4em;
+}
+
+}
+hr{
+  border: 0.01px solid grey;
+   border-radius: 0.1px;
+}
+.cr{
+  margin:0;
+  margin-left:100px;
+  margin-bottom:50px;
+  background-color:grey
+  font-family: Helvetica, arial, sans-serif;
+  text-align: left;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+  color: rgb(89, 89, 89);
+  letter-spacing: 0.083em;
+  line-height: 1.33;
+  font-size: 12px;
+  box-sizing: inherit;
+}
+.media{
+  position: absolute;
+  margin-left:695px;
+  margin-top:-90px;
+}
+.msg{
+  position: absolute;
+  margin-left:1000px;
+  margin-top:-90px;
+  text-transform:lowercase;
+  font-size: 16px;
+}
+:hover#yt{
+  fill:#ff0000;
+}
+:hover#ld{
+  fill:#0072b1
+}
+:hover#fb{
+  fill:#3b5998
+}
+/////Chat Bot Dialogflow
+.sidenav2 a:hover {
+  color: rgb(35,64,87);
+}
+
+.sidenav2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 130px;
+  left: 1100px;
+  background-color: rgb(35,64,85);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav2 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(35,64,85);
+  display: block;
+  transition: 0.3s;
+}
+.sidenav2 .close_btn2 {
+  position: absolute;
+  color:white;
+  top: 15px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav2 {padding-top: 15px;}
+  .sidenav2 a {font-size: 18px;}
+}
+.navbar {
+   overflow: hidden;
+   background-color: rgb(35,64,85);
+   position: fixed;
+   cursor: pointer;
+   bottom: 0;
+   max-width:382px;
+   left:1100px;
+   margin-bottom: -1px;
+}
+.chat {
+  margin-right:280px;
+  margin-bottom:-30px;
+  font-size: 20px;
+}
+.ask {
+  font-size:20px;
+  color:white;
+  margin-bottom:10px;
+  font-family:'League Spartan';
+  font-weight:600;
+  float: right;
+  margin-left:100px;
+}
+.chatbot{
+  background-color: white;
+  opacity:1;
+  max-width:440px;
+}
+
+input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin: 10px 0;
+  height: 40px;
+  width: 296px;
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+  outline: none;
+  margin-left: 35px;
+}
+textarea{
+  margin-left: 35px;
+  width : 315.6px;
+  height:100px;
+  border: none;
+  outline: none;
+}
+button{
+  background-color: rgb(35,64,85);
+  border: none;
+  color: white;
+  font-weight:600;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:130px;
+
+}
+p.round2 {
+  position:absolute;
+  margin-top:-8px;
+  margin-left:40px;
+  text-align:justify;
+  letter-spacing: normal;
+  text-transform: none;
+  font-family: Helvetica, arial, sans-serif;
+  font-weight:400;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:15px;
+  background-color:rgb(137, 171, 186);
+  border: 2px solid rgb(137, 171, 186);
+  border-radius: 8px;
+  width:300px;
+  height:100px;
+}
+#dialog{
+  margin-left:70px;
+  margin-top:30px;
+}
+.chat_name{
+  bottom: 20px;
+}
+:hover.chat_name{
+  border:2px solid grey;
+}
+:hover.chat_mail{
+  border:2px solid grey;
+}
+.policy{
+  margin-left:30px;
+  margin-top:10px;
+  font-family: Helvetica, arial, sans-serif;
+  color: rgb(89, 89, 89);
+  font-size: 14px;
+  text-align: center;
+}
+.ven{
+  position:absolute;
+  margin-left:40px;
+  font-size:25px;
+  line-height: 35px;
+  margin-top: 120px;
+}
+.heure{
+  position:absolute;
+  margin-left:40px;
+  font-size:18px;
+  line-height: 30px;
+  margin-top: 220px;
+}
+#ag_logo2{
+  position:absolute;
+  margin-left:850px;
+  margin-top:-380px;
+}
+#send.sending {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
