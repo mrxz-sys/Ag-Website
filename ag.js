@@ -121,16 +121,28 @@ document.querySelector("#contact-form").addEventListener("submit", (e) => {
   const name = encodeURIComponent(document.querySelector("#nom").value);
   const email = encodeURIComponent(document.querySelector("#mail2").value);
   const message = encodeURIComponent(document.querySelector("#msg").value);
+  const currentDate = new Date().toLocaleString(); // Get the current date and time
   var submit = document.getElementById("send");
+
   // Change button text to "Envoi en cours"
   submit.textContent = "Envoi en cours";
   submit.classList.add("sending");
+
   // Construct the email message
-  const subject = `New message de ${name} sur votre site web`;
+  const subject = `Nouveau message de ${name} sur votre site web`;
   const body = `
-    Name: ${name}\n
-    Email: ${email}\n
-    Message: ${message}\n
+  -------------------------------------------------------------
+  ||                       CLIENT                                ||
+  -------------------------------------------------------------
+
+  Name  : ${name}
+  Email : ${email}
+  Message : ${message}
+  Date : ${currentDate}
+
+  -------------------------------------------------------------
+  ||     AGRIWAL CONSULTING SITEWEB      ||
+  -------------------------------------------------------------
   `;
 
   // Send the email using Google Apps Script
@@ -139,17 +151,16 @@ document.querySelector("#contact-form").addEventListener("submit", (e) => {
   xhr.open("POST", url);
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   xhr.onreadystatechange = function() {
-  if (xhr.readyState === 4) {
-    submit.textContent = "Envoyer";
-    submit.classList.remove("sending");
-    if (xhr.status === 200) {
-
-      alert("Merci pour le message. Nous vous répondrons dès que possible.");
-    } else {
-      alert("Sorry, there was a problem sending your message.");
+    if (xhr.readyState === 4) {
+      submit.textContent = "Envoyer";
+      submit.classList.remove("sending");
+      if (xhr.status === 200) {
+        alert("Merci pour le message. Nous vous répondrons dès que possible.");
+      } else {
+        alert("Sorry, there was a problem sending your message.");
+      }
     }
-  }
-};
+  };
 
   xhr.send(`recipient=${recipient}&name=${name}&subject=${subject}&body=${body}&sender=${email}`);
 });
