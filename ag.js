@@ -157,7 +157,7 @@ document.querySelector("#contact-form").addEventListener("submit", (e) => {
       if (xhr.status === 200) {
         alert("Merci pour le message. Nous vous répondrons dès que possible.");
       } else {
-        alert("Sorry, there was a problem sending your message.");
+        alert("Désolé, il y a eu un problème lors de l'envoi de votre message.");
       }
     }
   };
