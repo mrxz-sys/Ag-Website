@@ -70,12 +70,7 @@ body{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-#agl{
-  max-width:100%;
-width:400px;
-height:300px;
-margin-left:450px;
-}
+
 /////////////Images
 .parent {
   position: relative;
