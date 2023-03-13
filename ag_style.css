@@ -17,6 +17,8 @@ body{
   color: rgb(35,64,85);
   margin-left: 100px;
   margin-bottom: -200px;
+  font-size:30px;
+  cursor:pointer
 }
 /////SIDE BAR NAV
 * The side navigation menu */
@@ -70,7 +72,6 @@ body{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
 /////////////Images
 .parent {
   position: relative;
