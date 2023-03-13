@@ -121,14 +121,7 @@ body{
   }
 }
 
-@media (max-width: 576px) {
-  .title {
-    font-size: 20px;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
+
 
 .cercle {
   position: absolute;
