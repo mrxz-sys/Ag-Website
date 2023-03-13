@@ -108,15 +108,16 @@ body{
   font-family: 'League Spartan';
   font-weight: 600;
   color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 100%;
+  left: 200px;
 }
 
 @media (max-width: 768px) {
   .title {
     font-size: 30px;
     top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -124,6 +125,8 @@ body{
   .title {
     font-size: 20px;
     top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -135,11 +138,7 @@ body{
   width:400px;
   height:400px;
 }
-.t1{
-  top: 650px;
-  left: 260px;
-  color:white;
-}
+
 .t2 {
   color: grey;
   font-size: 40px;
