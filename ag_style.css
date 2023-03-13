@@ -108,14 +108,14 @@ body{
   font-family: 'League Spartan';
   font-weight: 600;
   color: white;
-  top: 90%;
+  top: 92%;
   left: 200px;
 }
 
 @media (max-width: 768px) {
   .title {
     font-size: 30px;
-    top: 40%;
+    top: 92%;
     left: 50%;
     transform: translateX(-50%);
   }
