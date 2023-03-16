@@ -131,7 +131,7 @@ body{
   .title {
     font-size: 20px;
     top: 230px;
-    left: 450px;
+    left: 50px;
     transform: translateX(-50%);
   }
 }
