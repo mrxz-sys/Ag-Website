@@ -112,31 +112,27 @@ body{
   left: -250px;
 }
 /* Media queries for larger devices */
-@media screen and (min-width: 1199.98px) {
+@media screen and (min-width: 1200px) {
   .title {
     margin-top: -310px;
     margin-left: 250px;
   }
 }
-@media (max-width: 767.98px) { //smaller devices
+@media (max-width: 768px) { //smaller devices
   .title {
     font-size: 30px;
-    text-align: center;
+    margin-top: -310px;
+    margin-left: 450px;
     transform: translateX(-50%);
-    top: 50%;
-    left: 50%;
-    margin: 0;
   }
 }
 
 @media (max-width: 576px) {
   .title {
     font-size: 20px;
-    text-align: center;
+    margin-top: -310px;
+    margin-left: 300px;
     transform: translateX(-50%);
-    top: 50%;
-    left: 50%;
-    margin: 0;
   }
 }
 
