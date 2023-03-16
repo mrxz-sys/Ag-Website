@@ -121,8 +121,8 @@ body{
 @media (max-width: 768px) { //smaller devices
   .title {
     font-size: 30px;
-    top: 230px;
-    left: 250px;
+    margin-top: -310px;
+    margin-left: 250px;
     transform: translateX(-50%);
   }
 }
@@ -130,8 +130,8 @@ body{
 @media (max-width: 576px) {
   .title {
     font-size: 20px;
-    top: 230px;
-    left: 50px;
+    margin-top: -310px;
+    margin-left: 250px;
     transform: translateX(-50%);
   }
 }
