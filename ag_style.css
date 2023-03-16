@@ -122,7 +122,7 @@ body{
   .title {
     font-size: 30px;
     margin-top: -310px;
-    margin-left: 250px;
+    margin-left: 100px;
     transform: translateX(-50%);
   }
 }
