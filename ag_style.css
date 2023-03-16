@@ -158,6 +158,23 @@ body{
   width:400px;
   height:400px;
 }
+/* For screens smaller than 768px (portrait mode on most tablets) */
+@media (max-width: 767px) {
+  .cercle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* For screens between 768px and 1024px (landscape mode on most tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cercle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 .t2 {
   color: grey;
   font-size: 40px;
