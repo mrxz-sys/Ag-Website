@@ -127,11 +127,11 @@ body{
   }
 }
 
-@media (max-width: 576px) { //more small devices
+@media (max-width: 576px) {
   .title {
     font-size: 20px;
-    top: 30%;
-    left: 50%;
+    top: 230px;
+    left: 250px;
     transform: translateX(-50%);
   }
 }
