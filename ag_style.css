@@ -130,8 +130,7 @@ body{
 @media (max-width: 576px) {
   .title {
     font-size: 20px;
-    margin-top: -310px;
-    margin-left: 300px;
+    text-align: center;
     transform: translateX(-50%);
   }
 }
