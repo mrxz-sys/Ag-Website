@@ -121,8 +121,7 @@ body{
 @media (max-width: 768px) { //smaller devices
   .title {
     font-size: 30px;
-    margin-top: -310px;
-    margin-left: 450px;
+    text-align: center;
     transform: translateX(-50%);
   }
 }
