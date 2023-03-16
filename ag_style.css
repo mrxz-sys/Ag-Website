@@ -108,20 +108,26 @@ body{
   font-family: 'League Spartan';
   font-weight: 600;
   color: white;
-  top: 92%;
-  left: 200px;
+  top: -310px;
+  left: -250px;
 }
-
-@media (max-width: 768px) {
+/* Media queries for larger devices */
+@media screen and (min-width: 1200px) {
+  .title {
+    margin-top: -310px;
+    margin-left: 250px;
+  }
+}
+@media (max-width: 768px) { //smaller devices
   .title {
     font-size: 30px;
-    top: 92%;
-    left: 50%;
+    top: 230px;
+    left: 250px;
     transform: translateX(-50%);
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) { //more small devices
   .title {
     font-size: 20px;
     top: 30%;
