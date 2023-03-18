@@ -13,11 +13,11 @@ body{
   line-height: 1.6em;
 }
 .icon1{
-  font-size: 30px;
+  position:absolute;
+  font-size: 26px;
   color: rgb(35,64,85);
-  margin-left: 100px;
-  margin-bottom: -200px;
-  font-size:30px;
+  margin-left: 200px;
+  margin-top: 150px;
   cursor:pointer
 }
 /////SIDE BAR NAV
@@ -82,8 +82,8 @@ body{
 }
 .down_arrow{
   position: absolute;
-  top: 478px;
-  left: 776px;
+  top: 288px;
+  left: 740px;
   font-size:50px;
   color:white;
 }
@@ -102,12 +102,14 @@ body{
   width:100%;
   height:500px;
 }
+
 .title {
   position: absolute;
   font-size: 50px;
   font-family: 'League Spartan';
   font-weight: 600;
   color: white;
+  margin-top:0;
   top: -310px;
   left: -250px;
 }
@@ -152,7 +154,7 @@ body{
 
 .cercle {
   position: absolute;
-  top: 520px;
+  top: 380px;
   left: 595px;
   max-width: 100%;
   width:350px;
