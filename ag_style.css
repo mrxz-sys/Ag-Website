@@ -156,7 +156,7 @@ body{
 }
 @media (max-width: 575.98px) { /* smallest devices */
   .down_arrow {
-    font-size: 30px;
+    font-size: 42px;
     top: 288px;
     left: 50%;
     transform: translateX(-50%);
