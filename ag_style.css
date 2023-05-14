@@ -17,7 +17,7 @@ body{
   font-size: 26px;
   color: rgb(35,64,85);
   margin-left: 100px;
-  margin-bottom: -200px;
+  margin-bottom: -100px;
   cursor:pointer
 }
 @media (min-width: 576px) and (max-width: 767.98px) { /* small devices and tablets in portrait mode */
