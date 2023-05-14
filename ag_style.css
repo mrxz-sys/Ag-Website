@@ -126,7 +126,7 @@ body{
 }
 @media (min-width: 576px) and (max-width: 767.98px) { /* small devices and tablets in portrait mode */
   .down_arrow {
-    font-size: 45px;
+    font-size: 50px;
     top: 288px;
     left: 50%;
     transform: translateX(-50%);
@@ -150,8 +150,10 @@ body{
 }
 @media (min-width: 1200px) { /* larger devices */
   .down_arrow {
+    font-size: 50px;
     top: 288px;
-    left: 740px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 @media (max-width: 575.98px) { /* smallest devices amIr-Mobile*/
