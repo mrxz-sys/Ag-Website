@@ -144,14 +144,14 @@ body{
   .down_arrow {
     font-size: 50px;
     top: 288px;
-    left: 30%;
+    left: 50%;
     transform: translateX(-50%);
   }
 }
 @media (min-width: 1200px) { /* larger devices */
   .down_arrow {
     top: 288px;
-    left: 740px;
+    left: 400px;
   }
 }
 @media (max-width: 575.98px) { /* smallest devices */
