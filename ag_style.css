@@ -154,9 +154,9 @@ body{
     left: 740px;
   }
 }
-@media (max-width: 575.98px) { /* smallest devices */
+@media (max-width: 575.98px) { /* smallest devices amIr-Mobile*/
   .down_arrow {
-    font-size: 60px;
+    font-size: 50px;
     top: 288px;
     left: 50%;
     transform: translateX(-50%);
