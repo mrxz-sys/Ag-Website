@@ -140,7 +140,7 @@ body{
     transform: translateX(-50%);
   }
 }
-@media (min-width: 992px) and (max-width: 1199.98px) { /* larger tablets */amIR-Left
+@media (min-width: 992px) and (max-width: 1199.98px) { /* larger tablets amIR-Left*/
   .down_arrow {
     font-size: 50px;
     top: 288px;
