@@ -136,7 +136,7 @@ body{
   .down_arrow {
     font-size: 50px;
     top: 288px;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
   }
 }
