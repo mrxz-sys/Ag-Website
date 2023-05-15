@@ -40,7 +40,7 @@ body{
   .icon1 {
     font-size: 50px;
     top: 130px;
-    left: 10%;
+    left: 50%;
     transform: translateX(-50%);
   }
 }
