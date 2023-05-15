@@ -23,7 +23,7 @@ body{
 @media (min-width: 576px) and (max-width: 767.98px) { /* small devices and tablets in portrait mode */
   .icon1 {
     font-size: 35px;
-    top: 288px;
+    top: 130px;
     left: 20%;
     transform: translateX(-50%);
   }
@@ -31,7 +31,7 @@ body{
 @media (min-width: 768px) and (max-width: 991.98px) { /* tablets in landscape mode */
   .icon1 {
     font-size: 30px;
-    top: 288px;
+    top: 130px;
     left: 20%;
     transform: translateX(-50%);
   }
@@ -39,21 +39,21 @@ body{
 @media (min-width: 992px) and (max-width: 1199.98px) { /* larger tablets */
   .icon1 {
     font-size: 50px;
-    top: 288px;
+    top: 130px;
     left: 20%;
     transform: translateX(-50%);
   }
 }
 @media (min-width: 1200px) { /* larger devices */
   .icon1 {
-    top: 288px;
-    left: 740px;
+    top: 130px;
+    left: 40px;
   }
 }
 @media (max-width: 575.98px) { /* smallest devices */
   .icon1 {
     font-size: 30px;
-    top: 288px;
+    top: 130px;
     left: 50%;
     transform: translateX(-50%);
   }
