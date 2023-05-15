@@ -32,7 +32,7 @@ body{
   .icon1 {
     font-size: 30px;
     top: 130px;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
   }
 }
@@ -40,7 +40,7 @@ body{
   .icon1 {
     font-size: 50px;
     top: 130px;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
   }
 }
