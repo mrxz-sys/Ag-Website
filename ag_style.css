@@ -54,7 +54,7 @@ body{
   .icon1 {
     font-size: 30px;
     top: 130px;
-    left: *1%;
+    left: 0.01%;
     transform: translateX(-50%);
   }
 }
