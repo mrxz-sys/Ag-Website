@@ -36,7 +36,7 @@ body{
     transform: translateX(-50%);
   }
 }
-@media (min-width: 992px) and (max-width: 1199.98px) { /* larger tablets */
+@media (min-width: 992px) and (max-width: 1199.98px) { /* larger tablets amIR-Left*/
   .icon1 {
     font-size: 50px;
     top: 130px;
@@ -44,17 +44,17 @@ body{
     transform: translateX(-50%);
   }
 }
-@media (min-width: 1200px) { /* larger devices */
+@media (min-width: 1200px) { /* larger devices amIR-right*/
   .icon1 {
     top: 130px;
     left: 40px;
   }
 }
-@media (max-width: 575.98px) { /* smallest devices */
+@media (max-width: 575.98px) { /* smallest devices amIR-Mobile*/
   .icon1 {
     font-size: 30px;
     top: 130px;
-    left: 50%;
+    left: *1%;
     transform: translateX(-50%);
   }
 }
@@ -148,7 +148,7 @@ body{
     transform: translateX(-50%);
   }
 }
-@media (min-width: 1200px) { /* larger devices */
+@media (min-width: 1200px) { /* larger devices amIR-right*/
   .down_arrow {
     font-size: 50px;
     top: 288px;
