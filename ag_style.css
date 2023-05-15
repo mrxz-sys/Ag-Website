@@ -52,9 +52,9 @@ body{
 }
 @media (max-width: 575.98px) { /* smallest devices amIR-Mobile*/
   .icon1 {
-    font-size: 30px;
+    font-size: 50px;
     top: 130px;
-    left: 0.01%;
+    left: -20%;
     transform: translateX(-50%);
   }
 }
