@@ -32,7 +32,7 @@ body{
   .icon1 {
     font-size: 30px;
     top: 130px;
-    left: 20%;
+    left: 50%;
     transform: translateX(-50%);
   }
 }
