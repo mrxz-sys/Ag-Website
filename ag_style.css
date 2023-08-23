@@ -314,11 +314,8 @@ body{
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .t2 {
     top: 50%;
-    left: 80%;
+    left: 75%;
     transform: translate(-50%, -50%);
-  }
-  .t2::before{
-  transform: translate(-50%, -50%);
   }
 }
 
