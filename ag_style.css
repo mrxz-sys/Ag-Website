@@ -317,8 +317,8 @@ body{
     left: 82%;
     transform: translate(-50%, -50%);
   }
-  .t2::before{
-    animation: animate 8s linear infinite;
+  .t2::before {
+    width: 100%; /* Adjust the width for medium tablets */
   }
 }
 
