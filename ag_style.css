@@ -241,7 +241,7 @@ body{
 
 @media (min-width: 576px) and (max-width: 767.98px) { /* smallest devices amIr-Mobile*/
   .cercle {
-    top: 200%;
+    top: -100%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:300px;
@@ -252,7 +252,7 @@ body{
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
 @media (min-width: 1024px) and (max-width: 1200px) {
   .cercle {
-    top: 50%;
+    top: 70%;
     left: 80%;
     transform: translate(-50%, -50%);
   }
