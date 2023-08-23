@@ -239,16 +239,24 @@ body{
   height:350px;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) { /* smallest devices amIr-Mobile*/
+@media (max-width: 576px){ /* smallest devices amIr-Mobile*/
   .cercle {
-    top: 142%;
+    top: 200%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -50%);
     width:300px;
     height:300px;
   }
 }
-
+@media (min-width: 576px) and (max-width: 767.98px) { /* small devices and tablets in portrait mode */
+  .cercle {
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:300px;
+    height:300px;
+  }
+}
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
 @media (min-width: 1024px) and (max-width: 1200px) {
   .cercle {
@@ -264,6 +272,7 @@ body{
     transform: translate(-50%, -50%);
   }
 }
+
 .t2 {
   color: grey;
   font-size: 40px;
