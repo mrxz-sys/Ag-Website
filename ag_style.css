@@ -239,9 +239,9 @@ body{
   height:350px;
 }
 /* For screens smaller than 768px (portrait mode on most tablets) */
-@media (max-width: 767px) {
+@media (max-width: 575.98px) { /* smallest devices amIr-Mobile*/
   .cercle {
-    top: 182%;
+    top: 142%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:300px;
