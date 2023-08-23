@@ -300,11 +300,6 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
-  .t2::before {
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
 }
 
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
@@ -312,10 +307,6 @@ body{
   .t2 {
     top: 50%;
     left: 70%;
-    transform: translate(-50%, -50%);
-  }
-
-  .t2::before {
     transform: translate(-50%, -50%);
   }
 }
@@ -326,20 +317,12 @@ body{
     left: 82%;
     transform: translate(-50%, -50%);
   }
-
-  .t2::before {
-    transform: translate(-50%, -50%);
-  }
 }
 
 @media (min-width: 1400px) { /* Desktop */
   .t2 {
     top: 50%;
     left: 85%;
-    transform: translate(-50%, -50%);
-  }
-
-  .t2::before {
     transform: translate(-50%, -50%);
   }
 }
