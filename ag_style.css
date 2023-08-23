@@ -297,18 +297,21 @@ body{
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .t2 {
-    font-size: 18px;
+    font-size: 25px;
     top: 182%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .t2::before {
+  display: none; /* Hide only the ::before pseudo-element on smaller screens */
+}
 }
 
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
 @media (min-width: 768px) and (max-width: 1024px) {
   .t2 {
-    font-size: 26px;
+    font-size: 20px;
     top: 50%;
     left: 80%;
     transform: translate(-50%, -50%);
