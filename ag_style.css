@@ -313,7 +313,7 @@ body{
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .t2 {
     top: 50%;
-    left: 70%;
+    left: 85%;
     transform: translate(-50%, -50%);
   }
 }
@@ -321,7 +321,7 @@ body{
 @media (min-width: 1400px){ /* Desktop */
   .t2 {
     top: 50%;
-    left: 70%;
+    left: 85%;
     transform: translate(-50%, -50%);
   }
 }
