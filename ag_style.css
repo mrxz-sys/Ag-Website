@@ -250,10 +250,10 @@ body{
 }
 
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   .cercle {
     top: 50%;
-    left: 90%;
+    left: 80%;
     transform: translate(-50%, -50%);
   }
 }
