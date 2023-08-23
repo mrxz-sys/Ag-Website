@@ -241,9 +241,9 @@ body{
 
 @media (min-width: 576px) and (max-width: 767.98px) { /* smallest devices amIr-Mobile*/
   .cercle {
-    top: -100%;
+    top: 142%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
     width:300px;
     height:300px;
   }
