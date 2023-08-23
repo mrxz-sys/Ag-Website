@@ -242,7 +242,7 @@ body{
 @media (max-width: 767px) {
   .cercle {
     top: 142%;
-    left: 40%;
+    left: 90%;
     transform: translate(-50%, -50%);
     width:300px;
     height:300px;
