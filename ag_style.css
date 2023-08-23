@@ -318,7 +318,7 @@ body{
     transform: translate(-50%, -50%);
   }
   .t2::before{
-    transform: translate(100%, 50%);
+    margin-left:30px;
   }
 }
 
