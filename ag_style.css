@@ -253,14 +253,14 @@ body{
 @media (min-width: 768px) and (max-width: 1024px) {
   .cercle {
     top: 50%;
-    left: 50%;
+    left: 90%;
     transform: translate(-50%, -50%);
   }
 }
-@media (min-width: 1400px) { /* larger devices */
+@media (max-width: 1400px) { /* larger devices */
   .cercle {
     top: 50%;
-    left: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
