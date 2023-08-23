@@ -267,7 +267,7 @@ body{
 
 @media (min-width: 1400px){ /* Desktop */
   .cercle {
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
