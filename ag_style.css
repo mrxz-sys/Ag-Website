@@ -297,30 +297,27 @@ body{
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .t2 {
+    font-size: 30px;
     top: 182%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  .t2::before {
-    border-right: 1px solid rgb(35, 64, 85); /* Adjust border thickness for smaller screens */
   }
 }
 
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
 @media (min-width: 768px) and (max-width: 1024px) {
   .t2 {
+    font-size: 30px;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
-  }
-  .t2::before {
-    border-right: 1px solid rgb(35, 64, 85); /* Adjust border thickness for medium screens */
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .t2 {
+    font-size: 30px;
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
