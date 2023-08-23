@@ -297,7 +297,7 @@ body{
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .t2 {
-    font-size: 25px;
+    font-size: 22px;
     top: 182%;
     left: 50%;
     transform: translate(-50%, -50%);
