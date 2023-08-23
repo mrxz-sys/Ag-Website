@@ -257,7 +257,7 @@ body{
     transform: translate(-50%, -50%);
   }
 }
-@media (min-width: 1024px){ /* larger tablets */
+@media (min-width: 1400px){ /* larger tablets */
   .cercle {
     top: 50%;
     left: 90%;
