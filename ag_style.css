@@ -300,6 +300,13 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .t2::before {
+    top: 0;
+    left: -20px; /* Adjust this value as needed */
+    height: 100%;
+    border-right: 2px solid rgb(35, 64, 85);
+  }
 }
 
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
@@ -309,20 +316,45 @@ body{
     left: 70%;
     transform: translate(-50%, -50%);
   }
+
+  .t2::before {
+    top: -20px; /* Adjust this value as needed */
+    left: 0;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid rgb(35, 64, 85);
+  }
 }
+
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .t2 {
     top: 50%;
     left: 82%;
     transform: translate(-50%, -50%);
   }
+
+  .t2::before {
+    top: -20px; /* Adjust this value as needed */
+    left: 0;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid rgb(35, 64, 85);
+  }
 }
 
-@media (min-width: 1400px){ /* Desktop */
+@media (min-width: 1400px) { /* Desktop */
   .t2 {
     top: 50%;
     left: 85%;
     transform: translate(-50%, -50%);
+  }
+
+  .t2::before {
+    top: -20px; /* Adjust this value as needed */
+    left: 0;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid rgb(35, 64, 85);
   }
 }
 
