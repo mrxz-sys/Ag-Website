@@ -242,7 +242,7 @@ body{
 @media (max-width: 767px) {
   .cercle {
     top: 142%;
-    left: 90%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width:300px;
     height:300px;
@@ -254,6 +254,13 @@ body{
   .cercle {
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { /* larger tablets */
+  .cercle {
+    top: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
   }
 }
