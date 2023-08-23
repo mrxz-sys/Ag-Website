@@ -303,6 +303,10 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  ..t2::before{
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
 
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
@@ -310,7 +314,7 @@ body{
   .t2 {
     font-size: 20px;
     top: 50%;
-    left: 80%;
+    left: 85%;
     transform: translate(-50%, -50%);
   }
 }
