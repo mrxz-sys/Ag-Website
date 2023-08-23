@@ -260,15 +260,15 @@ body{
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .cercle {
     top: 50%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
 
-@media (min-width: 1400px){ /* larger tablets */
+@media (min-width: 1400px){ /* Desktop */
   .cercle {
     top: 50%;
-    left: 90%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
