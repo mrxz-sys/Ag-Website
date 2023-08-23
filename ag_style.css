@@ -310,7 +310,7 @@ body{
   .t2 {
     font-size: 30px;
     top: 50%;
-    left: 70%;
+    left: 80%;
     transform: translate(-50%, -50%);
   }
 }
@@ -319,7 +319,7 @@ body{
   .t2 {
     font-size: 30px;
     top: 50%;
-    left: 75%;
+    left: 85%;
     transform: translate(-50%, -50%);
   }
 }
