@@ -302,6 +302,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color:rgb(35, 64, 85);
   }
   .t2::before {
   display: none; /* Hide only the ::before pseudo-element on smaller screens */
