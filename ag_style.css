@@ -317,6 +317,9 @@ body{
     left: 75%;
     transform: translate(-50%, -50%);
   }
+  .t2::before{
+    width: 50%; /* Example adjustment */
+  }
 }
 
 @media (min-width: 1400px) { /* Desktop */
