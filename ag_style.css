@@ -239,7 +239,7 @@ body{
   height:350px;
 }
 
-@media (max-width: 575.98px) { /* smallest devices amIr-Mobile*/
+@media (min-width: 576px) and (max-width: 767.98px) { /* smallest devices amIr-Mobile*/
   .cercle {
     top: 52%;
     left: 50%;
