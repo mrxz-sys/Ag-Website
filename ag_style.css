@@ -260,7 +260,7 @@ body{
 @media (min-width: 992px) and (max-width: 1200px) { /* larger tablets */
   .cercle {
     top: 50%;
-    left: 80%;
+    left: 40%;
     transform: translate(-50%, -50%);
   }
 }
