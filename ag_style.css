@@ -304,8 +304,7 @@ body{
     text-align: center;
   }
   ..t2::before{
-    transform: translate(-50%, -50%);
-    text-align: center;
+    left:30px;
   }
 }
 
