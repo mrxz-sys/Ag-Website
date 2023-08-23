@@ -317,6 +317,9 @@ body{
     left: 82%;
     transform: translate(-50%, -50%);
   }
+  .t2::before{
+    animation: animate 8s linear infinite;
+  }
 }
 
 @media (min-width: 1400px) { /* Desktop */
