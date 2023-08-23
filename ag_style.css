@@ -275,23 +275,25 @@ body{
 .t2 {
   color: grey;
   font-size: 40px;
-  left:525px;
+  left: 525px;
   position: relative;
   text-transform: uppercase;
-  font-weight:600;
+  font-weight: 600;
 }
+
 .t2::before {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  color: rgb(35,64,85);
+  color: rgb(35, 64, 85);
   overflow: hidden;
   position: absolute;
   content: attr(data-text);
-  border-right: 2px solid rgb(35,64,85);
+  border-right: 2px solid rgb(35, 64, 85);
   animation: animate 6s linear infinite;
 }
+
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .t2 {
@@ -299,6 +301,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+  .t2::before {
+    border-right: 1px solid rgb(35, 64, 85); /* Adjust border thickness for smaller screens */
   }
 }
 
@@ -309,6 +314,9 @@ body{
     left: 70%;
     transform: translate(-50%, -50%);
   }
+  .t2::before {
+    border-right: 1px solid rgb(35, 64, 85); /* Adjust border thickness for medium screens */
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
@@ -316,9 +324,6 @@ body{
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-  }
-  .t2::before{
-    margin-left:0;
   }
 }
 
@@ -329,6 +334,7 @@ body{
     transform: translate(-50%, -50%);
   }
 }
+
 
 
 @keyframes animate {
