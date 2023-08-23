@@ -301,11 +301,6 @@ body{
     top: 182%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  ..t2::before{
-    left:30px;
-  }
 }
 
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
