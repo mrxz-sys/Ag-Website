@@ -403,6 +403,18 @@ border:2px solid rgb(35,64,84);
 #bpo_list>li{
 margin-top: 20px;
 }
+.map{
+  width:712px ;
+  height:700px ;
+  border:0;
+  float:right;
+  position:absolute;
+  margin-top:-700px;
+  margin-left:600px
+  allowfullscreen:"";
+  loading=lazy;
+  referrerpolicy="no-referrer-when-downgrade";
+}
 .adress{
   font-size:20px;
   font-weight: 600;
