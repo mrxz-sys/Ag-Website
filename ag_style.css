@@ -447,9 +447,9 @@ margin-top: 20px;
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
 @media (min-width: 768px) and (max-width: 1024px) {
   #carou {
-    width:250px;
-    height:250px;
-    left:-10%;
+    width:200px;
+    height:200px;
+    left:-30%;
   }
 }
 
