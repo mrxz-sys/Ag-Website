@@ -421,16 +421,16 @@ margin-top: 20px;
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .map {
-    top: 240%;
-    left: 15%;
+    top: 260%;
+    left: 25%;
     transform: translate(-50%, -50%);
   }
 }
 
 @media (min-width: 1400px) { /* Desktop */
   .map {
-    top: 220%;
-    left: 25%;
+    top: 165%;
+    left: 45%;
     transform: translate(-50%, -50%);
   }
 }
