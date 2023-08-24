@@ -430,7 +430,7 @@ margin-top: 20px;
 @media (min-width: 1400px) { /* Desktop */
   .map {
     top: 198%;
-    left: 25%;
+    left: 35%;
     transform: translate(-50%, -50%);
   }
 }
