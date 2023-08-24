@@ -442,7 +442,6 @@ margin-top: 20px;
   #carou {
     width:150px;
     height:150px;
-    transform: translate(-50%, -50%);
   }
 }
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
@@ -450,7 +449,6 @@ margin-top: 20px;
   #carou {
     width:250px;
     height:250px;
-    transform: translate(-50%, -50%);
   }
 }
 
