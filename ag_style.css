@@ -414,7 +414,7 @@ margin-top: 20px;
 @media (min-width: 768px) and (max-width: 1024px) {
   .map {
     top: 50%;
-    left: 80%;
+    left: 20%;
     transform: translate(-50%, -50%);
   }
 }
@@ -422,7 +422,7 @@ margin-top: 20px;
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .map {
     top: 50%;
-    left: 85%;
+    left: 25%;
     transform: translate(-50%, -50%);
   }
 }
@@ -430,7 +430,7 @@ margin-top: 20px;
 @media (min-width: 1400px) { /* Desktop */
   .map {
     top: 50%;
-    left: 85%;
+    left: 25%;
     transform: translate(-50%, -50%);
   }
 }
