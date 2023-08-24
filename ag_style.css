@@ -415,7 +415,7 @@ margin-top: 20px;
   .map {
     width:356px;
     top: 170%;
-    left: -30%;
+    left: 5%;
     transform: translate(-50%, -50%);
   }
 }
