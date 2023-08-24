@@ -413,7 +413,7 @@ margin-top: 20px;
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
 @media (min-width: 768px) and (max-width: 1024px) {
   .map {
-    top: 50%;
+    top: 200%;
     left: 20%;
     transform: translate(-50%, -50%);
   }
@@ -421,7 +421,7 @@ margin-top: 20px;
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .map {
-    top: 260%;
+    top: 230%;
     left: 25%;
     transform: translate(-50%, -50%);
   }
@@ -429,7 +429,7 @@ margin-top: 20px;
 
 @media (min-width: 1400px) { /* Desktop */
   .map {
-    top: 165%;
+    top: 190%;
     left: 45%;
     transform: translate(-50%, -50%);
   }
