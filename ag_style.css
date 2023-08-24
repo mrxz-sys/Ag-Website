@@ -442,6 +442,7 @@ margin-top: 20px;
   #carou {
     width:150px;
     height:150px;
+    margin-left:-40px;
   }
 }
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
@@ -449,7 +450,7 @@ margin-top: 20px;
   #carou {
     width:200px;
     height:200px;
-    margin-left:-50px;
+    margin-left:-40px;
   }
 }
 
