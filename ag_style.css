@@ -336,8 +336,6 @@ body{
   }
 }
 
-
-
 @keyframes animate {
   0%,
   10%,
@@ -403,18 +401,40 @@ border:2px solid rgb(35,64,84);
 #bpo_list>li{
 margin-top: 20px;
 }
-.map{
-  width:712px ;
-  height:700px ;
-  border:0;
-  float:right;
-  position:absolute;
-  margin-top:-700px;
-  margin-left:600px
-  allowfullscreen:"";
-  loading=lazy;
-  referrerpolicy="no-referrer-when-downgrade";
+/* For screens smaller than 768px (portrait mode on most tablets) */
+@media (max-width: 767px) {
+  .map {
+    top: 182%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
+
+/* For screens between 768px and 1024px (landscape mode on most tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .map {
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
+  .map {
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 1400px) { /* Desktop */
+  .map {
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 .adress{
   font-size:20px;
   font-weight: 600;
