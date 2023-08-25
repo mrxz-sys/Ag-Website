@@ -423,7 +423,7 @@ margin-top: 20px;
 @media (max-width: 767px) {
   .map {
     top: 182%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
   }
 }
