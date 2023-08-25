@@ -369,8 +369,7 @@ border:2px solid rgb(35,64,84);
   #cons_list {
     width:400px;
     height:250px;
-    left:50%;
-    transform: translate(-50%, -50%);
+    left:90%;
   }
 }
 
@@ -379,8 +378,7 @@ border:2px solid rgb(35,64,84);
   #cons_list {
     width:400px;
     height:250px;
-    left:50%;
-    transform: translate(-50%, -50%);
+    left:90%;
   }
 }
 
