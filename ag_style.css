@@ -367,7 +367,7 @@ border:2px solid rgb(35,64,84);
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   #cons_list {
-    width:220px;
+    width:290px;
     margin-left:-1%;
     font-size:15px;
   }
@@ -380,7 +380,6 @@ border:2px solid rgb(35,64,84);
     margin-left:20%;
   }
 }
-
 #cons_list>li{
 margin-top: 20px;
 }
@@ -398,6 +397,22 @@ border:2px solid rgb(35,64,84);
   Font-weight:600;
   font-size:18px
 }
+/* For screens smaller than 768px (portrait mode on most tablets) */
+@media (max-width: 767px) {
+  #aud_list {
+    width:290px;
+    margin-left:-1%;
+    font-size:15px;
+  }
+}
+
+/* For screens between 768px and 1024px (landscape mode on most tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #aud_list {
+    width:350px;
+    margin-left:20%;
+  }
+}
 #aud_list>li{
 margin-top: 20px;
 }
@@ -414,6 +429,22 @@ border:2px solid rgb(35,64,84);
   font-family:'League Spartan';
   Font-weight:600;
   font-size:18px
+}
+/* For screens smaller than 768px (portrait mode on most tablets) */
+@media (max-width: 767px) {
+  #bpo_list {
+    width:290px;
+    margin-left:-1%;
+    font-size:15px;
+  }
+}
+
+/* For screens between 768px and 1024px (landscape mode on most tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #bpo_list {
+    width:350px;
+    margin-left:20%;
+  }
 }
 #bpo_list>li{
 margin-top: 20px;
