@@ -15,17 +15,17 @@ function applyStylesToElement(element, styles) {
 
 // Define the styles for each element based on screen width
 var consListStyles = {
-  smaller: 'width: 250px; margin-left: -1%; font-size: 14px;',
-  between: 'width: 300px; margin-left: 15%;'
+  smaller: 'width: 250px; margin-left: -1%; font-size: 15px;',
+  between: 'width: 300px; margin-left: 20%;'
 };
 
 var audListStyles = {
-  smaller: 'width: 290px; margin-left: -1%; font-size: 15px;',
-  between: 'width: 350px; margin-left: 20%;'
+  smaller: 'width: 250px; margin-left: -1%; font-size: 15px;',
+  between: 'width: 300px; margin-left: 20%;'
 };
 
 var bpoListStyles = {
-  smaller: 'width: 250px; margin-left: -2%; font-size: 14px;',
+  smaller: 'width: 250px; margin-left: -1%; font-size: 15px;',
   between: 'width: 300px; margin-left: 15%;'
 };
 
