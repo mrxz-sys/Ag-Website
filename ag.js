@@ -33,7 +33,7 @@ $(function(){
     var carouselEl = $('.carousel');
     var carouselItems = carouselEl.find('.item');
     carouselEl.carousel({
-      interval: 1000
+      interval: 15000
     }).on('slid.bs.carousel', function (event) {
         console.log(carouselItems.siblings('.active').index());
         if(carouselItems.siblings('.active').index()=="0"){//////////First Slide
