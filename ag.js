@@ -15,7 +15,7 @@ function applyStylesToElement(element, styles) {
 
 // Define the styles for each element based on screen width
 var consListStyles = {
-  smaller: 'width: 270px; height:320px; margin-left: -1%; font-size: 15px;',
+  smaller: 'width: 260px; height:320px; margin-left: -1%; font-size: 15px;',
   between: 'width: 300px; height:320px; margin-left: -1%;'
 };
 
