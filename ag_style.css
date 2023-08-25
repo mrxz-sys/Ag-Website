@@ -423,9 +423,10 @@ margin-top: 20px;
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .map {
-    width:356px;
+    width:300px;
+    height:200px;
     top: 190%;
-    left: -100%;
+    left: -180%;
     transform: translate(-50%, -50%);
   }
 }
