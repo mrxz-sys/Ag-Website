@@ -29,14 +29,6 @@ var bpoListStyles = {
   between: 'width: 300px; margin-left: 15%;'
 };
 
-
-// Apply styles to both elements initially and on window resize
-function applyStyles() {
-  applyStylesToElement(cons, consListStyles);
-  applyStylesToElement(aud, audListStyles);
-  applyStylesToElement(bpo, bpoListStyles);
-}
-
 $(function(){
     var carouselEl = $('.carousel');
     var carouselItems = carouselEl.find('.item');
@@ -49,21 +41,21 @@ $(function(){
           cons.style.display="block";
           aud.style.display="none";
           bpo.style.display="none";
-          applyStyles();
+          applyStylesToElement(cons, consListStyles);
         }
         else if(carouselItems.siblings('.active').index()=="1"){//////////Second Slide
           console.log("Audit");
           aud.style.display="block";
           cons.style.display="none";
           bpo.style.display="none";
-          applyStyles();
+          applyStylesToElement(aud, audListStyles);
         }
         else if(carouselItems.siblings('.active').index()=="2"){//////////Third Slide
           console.log("BPO");
           bpo.style.display="block";
           cons.style.display="none";
           aud.style.display="none";
-          applyStyles();
+          applyStylesToElement(bpo, bpoListStyles);
         }
     })
 })
