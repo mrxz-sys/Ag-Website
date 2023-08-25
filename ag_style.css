@@ -423,12 +423,10 @@ margin-top: 20px;
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .map {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:356px;
+    top: 190%;
+    left: -100%;
+    transform: translate(-50%, -50%);
   }
 }
 
