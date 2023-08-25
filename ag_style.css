@@ -367,8 +367,8 @@ border:2px solid rgb(35,64,84);
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   #cons_list {
-    width:230px;
-    height:150px;
+    width:400px;
+    height:250px;
     transform: translate(-50%, -50%);
   }
 }
