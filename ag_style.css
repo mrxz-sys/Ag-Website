@@ -368,7 +368,7 @@ border:2px solid rgb(35,64,84);
 @media (max-width: 767px) {
   #cons_list {
     width:320px;
-    margin-left:10%;
+    margin-left:13%;
     font-size:15px;
   }
 }
