@@ -491,6 +491,12 @@ margin-top: 20px;
   font-size: 12px;
   box-sizing: inherit;
 }
+/* For screens smaller than 768px (portrait mode on most tablets) */
+@media (max-width: 767px) {
+  .adress {
+  display:none;
+  }
+}
 .contact{
   font-size:50px;
   family: 'League Spartan';
