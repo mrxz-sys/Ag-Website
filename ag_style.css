@@ -425,7 +425,7 @@ margin-top: 20px;
   .map {
     width:300px;
     height:200px;
-    top: 500%;
+    top: 512%;
     left: -150%;
     transform: translate(-50%, -50%);
   }
