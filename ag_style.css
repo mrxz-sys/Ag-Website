@@ -369,7 +369,7 @@ border:2px solid rgb(35,64,84);
   #cons_list {
     width:260px;
     height:320px;
-    margin-left:-5%;
+    margin-left:5%;
     font-size:15px;
   }
 }
