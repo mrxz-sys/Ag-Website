@@ -369,6 +369,7 @@ border:2px solid rgb(35,64,84);
   #cons_list {
     width:400px;
     height:250px;
+    left:50%;
     transform: translate(-50%, -50%);
   }
 }
@@ -376,8 +377,9 @@ border:2px solid rgb(35,64,84);
 /* For screens between 768px and 1024px (landscape mode on most tablets) */
 @media (min-width: 768px) and (max-width: 1024px) {
   #cons_list {
-    width:230px;
-    height:150px;
+    width:400px;
+    height:250px;
+    left:50%;
     transform: translate(-50%, -50%);
   }
 }
