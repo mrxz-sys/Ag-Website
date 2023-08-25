@@ -368,7 +368,7 @@ border:2px solid rgb(35,64,84);
 @media (max-width: 767px) {
   #cons_list {
     width:350px;
-    left:90%;
+    left:110%;
   }
 }
 
@@ -376,7 +376,7 @@ border:2px solid rgb(35,64,84);
 @media (min-width: 768px) and (max-width: 1024px) {
   #cons_list {
     width:350px;
-    left:90%;
+    left:110%;
   }
 }
 
