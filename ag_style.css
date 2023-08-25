@@ -11,6 +11,7 @@ html,body
 body{
   background-color: #E8E8E8;
   line-height: 1.6em;
+
 }
 .icon1{
   position:absolute;
@@ -422,8 +423,12 @@ margin-top: 20px;
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .map {
-    transform: translate(-50%, -50%);
-    position:relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
