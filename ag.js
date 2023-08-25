@@ -1,9 +1,45 @@
+var cons=document.getElementById("cons_list");
+var aud=document.getElementById("aud_list");
+var bpo=document.getElementById("bpo_list");
+// Define a function to apply styles to a given element based on screen width
+function applyStylesToElement(element, styles) {
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth;
+
+  if (screenWidth <= 767) {
+    element.style.cssText = styles.smaller;
+  } else if (screenWidth >= 768 && screenWidth <= 1024) {
+    element.style.cssText = styles.between;
+  }
+}
+
+
+// Define the styles for each element based on screen width
+var consListStyles = {
+  smaller: 'width: 250px; margin-left: -1%; font-size: 14px;',
+  between: 'width: 300px; margin-left: 15%;'
+};
+
+var audListStyles = {
+  smaller: 'width: 290px; margin-left: -1%; font-size: 15px;',
+  between: 'width: 350px; margin-left: 20%;'
+};
+
+var bpoListStyles = {
+  smaller: 'width: 250px; margin-left: -2%; font-size: 14px;',
+  between: 'width: 300px; margin-left: 15%;'
+};
+
+
+// Apply styles to both elements initially and on window resize
+function applyStyles() {
+  applyStylesToElement(cons, consListStyles);
+  applyStylesToElement(aud, audListStyles);
+  applyStylesToElement(bpo, bpoListStyles);
+}
+
 $(function(){
     var carouselEl = $('.carousel');
     var carouselItems = carouselEl.find('.item');
-    var cons=document.getElementById("cons_list");
-    var aud=document.getElementById("aud_list");
-    var bpo=document.getElementById("bpo_list");
     carouselEl.carousel({
       interval: 15000
     }).on('slid.bs.carousel', function (event) {
@@ -13,18 +49,21 @@ $(function(){
           cons.style.display="block";
           aud.style.display="none";
           bpo.style.display="none";
+          applyStyles();
         }
         else if(carouselItems.siblings('.active').index()=="1"){//////////Second Slide
           console.log("Audit");
           aud.style.display="block";
           cons.style.display="none";
           bpo.style.display="none";
+          applyStyles();
         }
         else if(carouselItems.siblings('.active').index()=="2"){//////////Third Slide
           console.log("BPO");
           bpo.style.display="block";
           cons.style.display="none";
           aud.style.display="none";
+          applyStyles();
         }
     })
 })
