@@ -528,11 +528,8 @@ margin-top: 20px;
   .contact {
     width:1200px;
   }
-  .envp{
-    left:50%;
-  }
-  .envpo{
-    left:50%;
+  .tel_svg{
+    left:-50%;
   }
 }
 .rotate{
