@@ -525,12 +525,7 @@ margin-top: 20px;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
-  .contact {
-    width:1200px;
-  }
-  .tel_svg{
-    left:-50%;
-  }
+
 }
 .rotate{
   transform: rotate(270deg);
