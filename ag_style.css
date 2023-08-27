@@ -529,7 +529,10 @@ margin-top: 20px;
     width:1200px;
   }
   #env_svg {
-    left:50%;
+    margin-left:50%;
+  }
+  #env_svg_open {
+    margin-left:50%;
   }
 }
 .rotate{
