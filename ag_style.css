@@ -528,12 +528,10 @@ margin-top: 20px;
   .contact {
     width:1200px;
   }
-  #env_svg {
-    margin-left:50%;
+  #tel_svg {
+    left:5%;
   }
-  #env_svg_open {
-    margin-left:50%;
-  }
+
 }
 .rotate{
   transform: rotate(270deg);
