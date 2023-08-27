@@ -522,6 +522,9 @@ margin-top: 20px;
   .contact {
     width:700px;
   }
+  #env_svg {
+    left:50%;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
