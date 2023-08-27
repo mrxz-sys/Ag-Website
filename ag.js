@@ -63,10 +63,12 @@ function visibility() {
 document.getElementById("env_svg").setAttribute("class","bi bi-envelope hidden");
 document.getElementById("env_svg_open").setAttribute("class","bi bi-envelope");
 document.getElementById("env_svg_open").style.color="green";
+document.getElementById("env_svg_open").setAttribute("left","50%");
 }
 function normalSvg() {
 document.getElementById("env_svg").setAttribute("class","bi bi-envelope");
 document.getElementById("env_svg_open").setAttribute("class","bi bi-envelope hidden");
+document.getElementById("env_svg").setAttribute("left","50%");
 }
 //Today's Date Updated (Today's day only)
 var options = { weekday: 'long', };

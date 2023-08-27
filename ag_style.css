@@ -526,7 +526,7 @@ margin-top: 20px;
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .contact {
-    width:800px;
+    width:1200px;
   }
 }
 .rotate{
