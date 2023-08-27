@@ -522,14 +522,14 @@ margin-top: 20px;
   .contact {
     width:700px;
   }
-  #tel_svg {
-    left:5%;
-  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
   .contact {
     width:1200px;
+  }
+  #env_svg {
+    left:50%;
   }
 }
 .rotate{
