@@ -525,7 +525,10 @@ margin-top: 20px;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
-
+  .contact {
+    width:1200px;
+    margin-left: 10%;
+  }
 }
 .rotate{
   transform: rotate(270deg);
