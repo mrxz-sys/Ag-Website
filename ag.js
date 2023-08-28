@@ -71,11 +71,11 @@ function applyStylesToEnvp(element, styles) {
 
 // Define the styles for each element based on screen width
 var env_svg_st = {
-  between: 'margin-left: 50%;'
+  between: 'margin-left: 80%;'
 };
 
 var env_svg_open_st = {
-  between: 'margin-left: 50%;'
+  between: 'margin-left: 80%;'
 };
 var env_svg=document.getElementById("env_svg");
 var env_svg_open=document.getElementById("env_svg_open");
