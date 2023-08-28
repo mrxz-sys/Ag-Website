@@ -71,14 +71,22 @@ function applyStylesToEnvp(element, styles) {
 
 // Define the styles for each element based on screen width
 var env_svg_st = {
-  between: 'margin-left: 75%;'
+  between: 'margin-left: 85%;'
 };
-
 var env_svg_open_st = {
   between: 'margin-left: 75%;'
 };
 var tel_svg_st = {
   between: 'margin-left: 10%;'
+};
+var tel_st = {
+  between: 'margin-left: -5%;'
+};
+var geo_st = {
+  between: 'margin-left: -10%;'
+};
+var mail_st = {
+  between: 'margin-left: -20%;'
 };
 
 var env_svg=document.getElementById("env_svg");
@@ -86,6 +94,9 @@ var env_svg_open=document.getElementById("env_svg_open");
 var tel_svg=document.getElementById("tel_svg");
 var geo_svg=document.getElementById("geo_svg");
 
+var tel=document.getElementById("tel");
+var geo=document.getElementById("geo");
+var mail=document.getElementById("mail");
 function visibility() {
 env_svg.setAttribute("class","bi bi-envelope hidden");
 env_svg_open.setAttribute("class","bi bi-envelope");
@@ -100,6 +111,9 @@ applyStylesToEnvp(env_svg, env_svg_st);
 applyStylesToEnvp(env_svg_open, env_svg_open_st);
 applyStylesToEnvp(tel_svg, tel_svg_st);
 
+applyStylesToEnvp(tel, tel_st);
+applyStylesToEnvp(geo, geo_st);
+applyStylesToEnvp(mail, mail_st);
 //Today's Date Updated (Today's day only)
 var options = { weekday: 'long', };
 const today = new Date();
