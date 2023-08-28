@@ -59,15 +59,39 @@ $(function(){
         }
     })
 })
+
+function applyStylesToEnvp(element, styles) {
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth;
+
+    if (screenWidth >= 1200 && screenWidth <= 1400) {
+    element.style.cssText = styles.between;
+  }
+}
+
+
+// Define the styles for each element based on screen width
+var env_svg_st = {
+  between: 'margin-left: 50%;'
+};
+
+var env_svg_open_st = {
+  between: 'margin-left: 50%;'
+};
+var env_svg=document.getElementById("env_svg");
+var env_svg_open=document.getElementById("env_svg_open");
+
 function visibility() {
-document.getElementById("env_svg").setAttribute("class","bi bi-envelope hidden");
-document.getElementById("env_svg_open").setAttribute("class","bi bi-envelope");
-document.getElementById("env_svg_open").style.color="green";
+env_svg.setAttribute("class","bi bi-envelope hidden");
+env_svg_open.setAttribute("class","bi bi-envelope");
+env_svg_open.style.color="green";
 }
+
 function normalSvg() {
-document.getElementById("env_svg").setAttribute("class","bi bi-envelope");
-document.getElementById("env_svg_open").setAttribute("class","bi bi-envelope hidden");
+env_svg.setAttribute("class","bi bi-envelope");
+env_svg_open.setAttribute("class","bi bi-envelope hidden");
 }
+applyStylesToEnvp(env_svg, env_svg_st);
+applyStylesToEnvp(env_svg_open, env_svg_open_st);
 //Today's Date Updated (Today's day only)
 var options = { weekday: 'long', };
 const today = new Date();

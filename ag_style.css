@@ -528,9 +528,6 @@ margin-top: 20px;
   .contact {
     width:1200px;
   }
-  .bi bi-envelope{
-    margin-left:50%;
-  }
 }
 .rotate{
   transform: rotate(270deg);
