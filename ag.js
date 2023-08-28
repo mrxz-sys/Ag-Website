@@ -83,10 +83,10 @@ var tel_st = {
   between: 'margin-left: -5%;'
 };
 var geo_st = {
-  between: 'margin-left: -10%;'
+  between: 'margin-left: 10%;'
 };
 var mail_st = {
-  between: 'margin-left: -20%;'
+  between: 'margin-left: 75%;'
 };
 
 var env_svg=document.getElementById("env_svg");
