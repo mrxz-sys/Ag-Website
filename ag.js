@@ -80,13 +80,13 @@ var tel_svg_st = {
   between: 'margin-left: 10%;'
 };
 var tel_st = {
-  between: 'margin-left: -5%;'
-};
-var geo_st = {
   between: 'margin-left: 10%;'
 };
+var geo_st = {
+  between: 'margin-left: 25%;'
+};
 var mail_st = {
-  between: 'margin-left: 75%;'
+  between: 'margin-left: 85%;'
 };
 
 var env_svg=document.getElementById("env_svg");
