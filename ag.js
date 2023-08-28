@@ -78,7 +78,7 @@ var env_svg_open_st = {
   between: 'margin-left: 100%;'
 };
 var tel_svg_st = {
-  between: 'margin-left: -15%;'
+  between: 'margin-left: -5%;'
 };
 var env_svg=document.getElementById("env_svg");
 var env_svg_open=document.getElementById("env_svg_open");
