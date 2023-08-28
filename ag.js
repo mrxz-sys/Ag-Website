@@ -77,18 +77,11 @@ var env_svg_st = {
 var env_svg_open_st = {
   between: 'margin-left: 120%;'
 };
-var tel_svg_st= {
-  between: 'margin-left: -10%'
-};
-var geo_svg_st= {
-  between: 'margin-left: -10%'
-};
 }
 
 var env_svg=document.getElementById("env_svg");
 var env_svg_open=document.getElementById("env_svg_open");
-var tel_svg=document.getElementById("tel_svg");
-var geo_svg=document.getElementById("geo_svg");
+
 
 function visibility() {
 env_svg.setAttribute("class","bi bi-envelope hidden");
@@ -102,8 +95,7 @@ env_svg_open.setAttribute("class","bi bi-envelope hidden");
 }
 applyStylesToEnvp(env_svg, env_svg_st);
 applyStylesToEnvp(env_svg_open, env_svg_open_st);
-applyStylesToEnvp(tel_svg, tel_svg_st);
-applyStylesToEnvp(geo_svg, geo_svg_st);
+
 //Today's Date Updated (Today's day only)
 var options = { weekday: 'long', };
 const today = new Date();
