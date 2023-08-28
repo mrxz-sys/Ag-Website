@@ -82,7 +82,7 @@ var tel_svg_st= {
 }
 var env_svg=document.getElementById("env_svg");
 var env_svg_open=document.getElementById("env_svg_open");
-var tel_svg=document.getElementById("bi bi-telephone");
+var tel_svg=document.getElementById("tel_svg");
 
 function visibility() {
 env_svg.setAttribute("class","bi bi-envelope hidden");
