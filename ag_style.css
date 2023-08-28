@@ -522,12 +522,6 @@ margin-top: 20px;
   .contact {
     width:700px;
   }
-  #tel_svg{
-    margin_left:-5%;
-  }
-  #geo_svg{
-    margin_left:-5%;
-  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) { /* larger tablets */
