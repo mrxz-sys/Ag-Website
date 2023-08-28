@@ -534,11 +534,8 @@ margin-top: 20px;
   .contact {
     width:1200px;
   }
-  #tel_svg{
+  .bi bi-telephone{
     margin-left:50%;
-  }
-  #geo_svg{
-    margin-left:-25%;
   }
 }
 .rotate{
