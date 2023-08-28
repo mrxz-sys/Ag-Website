@@ -71,10 +71,10 @@ function applyStylesToEnvp(element, styles) {
 
 // Define the styles for each element based on screen width
 var env_svg_st = {
-  between: 'margin-left: 80%; margin-top:-50%; position:relative;'
+  between: 'margin-left: 80%; top:-50%; position:relative;'
 };
 var env_svg_open_st = {
-  between: 'margin-left: 80%; margin-top:-50%; position:relative;'
+  between: 'margin-left: 80%; top:-50%; position:relative;'
 };
 var tel_svg_st = {
   between: 'margin-left: 10%;'
