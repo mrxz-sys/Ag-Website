@@ -71,14 +71,18 @@ function applyStylesToEnvp(element, styles) {
 
 // Define the styles for each element based on screen width
 var env_svg_st = {
-  between: 'margin-left: 120%;'
+  between: 'margin-left: 100%;'
 };
 
 var env_svg_open_st = {
-  between: 'margin-left: 120%;'
+  between: 'margin-left: 100%;'
+};
+var tel_svg_st = {
+  between: 'margin-left: -45%;'
 };
 var env_svg=document.getElementById("env_svg");
 var env_svg_open=document.getElementById("env_svg_open");
+var tel_svg=document.getElementById("tel_svg");
 
 function visibility() {
 env_svg.setAttribute("class","bi bi-envelope hidden");
@@ -92,6 +96,7 @@ env_svg_open.setAttribute("class","bi bi-envelope hidden");
 }
 applyStylesToEnvp(env_svg, env_svg_st);
 applyStylesToEnvp(env_svg_open, env_svg_open_st);
+applyStylesToEnvp(tel_svg, tel_svg_st);
 //Today's Date Updated (Today's day only)
 var options = { weekday: 'long', };
 const today = new Date();
