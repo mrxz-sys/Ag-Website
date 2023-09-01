@@ -509,7 +509,6 @@ margin-top: 20px;
   padding:40px;
   background-color:#F8F8F8;
   margin-bottom:130px;
-  position:relative;
 }
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
