@@ -86,7 +86,7 @@ var geo_st = {
   between: 'margin-left: 15%;'
 };
 var mail_st = {
-  between: 'margin-left: 78%; margin-top:5%;'
+  between: 'margin-left: 78%; margin-bottom:15%;'
 };
 
 var env_svg=document.getElementById("env_svg");
