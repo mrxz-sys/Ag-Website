@@ -77,13 +77,13 @@ var env_svg_open_st = {
   between: 'margin-left: 80%;'
 };
 var tel_svg_st = {
-  between: 'margin-left: 10%; margin-top:10%;'
+  between: 'margin-left: 10%; margin-top:30%;'
 };
 var tel_st = {
-  between: 'margin-left: 5% margin-top:10%;'
+  between: 'margin-left: 5% margin-top:30%;'
 };
 var geo_st = {
-  between: 'margin-left: 15% margin-top:10%;'
+  between: 'margin-left: 15% margin-top:30%;'
 };
 var mail_st = {
   between: 'margin-left: 78%;'
