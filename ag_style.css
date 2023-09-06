@@ -1066,7 +1066,7 @@ p.round2 {
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .timer{
-    margin-top:80%;
+    margin-top:90%;
   }
 }
 .ven{
