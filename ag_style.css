@@ -1061,7 +1061,7 @@ p.round2 {
   text-align: center;
 }
 .timer {
-  margin-top:200px;
+  margin-top:350px;
 }
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
