@@ -1060,10 +1060,13 @@ p.round2 {
   font-size: 14px;
   text-align: center;
 }
+.timer {
+  margin-top:200px;
+}
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .timer{
-    margin-top:100px;
+    margin-top:80%;
   }
 }
 .ven{
