@@ -513,7 +513,7 @@ margin-top: 20px;
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .contact {
-    display:hidden;
+    display:none;
   }
 }
 
@@ -1070,7 +1070,7 @@ p.round2 {
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .ven{
-    display:hidden;
+    display:none;
   }
 }
 .heure{
@@ -1083,7 +1083,7 @@ p.round2 {
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .heure {
-    display:hidden;
+    display:none;
   }
 }
 #ag_logo2{
