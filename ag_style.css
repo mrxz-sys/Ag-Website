@@ -513,7 +513,7 @@ margin-top: 20px;
 /* For screens smaller than 768px (portrait mode on most tablets) */
 @media (max-width: 767px) {
   .contact {
-    width:400px;
+    display:hidden;
   }
 }
 
@@ -1067,12 +1067,24 @@ p.round2 {
   line-height: 35px;
   margin-top: 120px;
 }
+/* For screens smaller than 768px (portrait mode on most tablets) */
+@media (max-width: 767px) {
+  .ven{
+    display:hidden;
+  }
+}
 .heure{
   position:absolute;
   margin-left:40px;
   font-size:18px;
   line-height: 30px;
   margin-top: 220px;
+}
+/* For screens smaller than 768px (portrait mode on most tablets) */
+@media (max-width: 767px) {
+  .heure {
+    display:hidden;
+  }
 }
 #ag_logo2{
   max-width: 100%;
